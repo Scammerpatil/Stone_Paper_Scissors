@@ -70,29 +70,29 @@ function playGame(userChoice) {
     const result = determineWinner(userChoice, computerChoice);
     console.log(userChoice, computerChoice)
     if (computerChoice === 'Stone') {
-        document.getElementById('computerOption').style.backgroundImage = "url('/Images/computerStone.png')";
+        document.getElementById('computerOption').style.backgroundImage = "url('Images/computerStone.png')";
     }
     else if (computerChoice === 'Paper') {
-        document.getElementById('computerOption').style.backgroundImage = "url('/Images/ComputerPaper.png')";
+        document.getElementById('computerOption').style.backgroundImage = "url('Images/ComputerPaper.png')";
     }
     else {
-        document.getElementById('computerOption').style.backgroundImage = "url('/Images/Scissor.png')";
+        document.getElementById('computerOption').style.backgroundImage = "url('Images/Scissor.png')";
     }
     document.getElementById("resultDisplay").innerText = result;
 }
 
 // Event listeners for button clicks
 document.getElementById("stone").addEventListener("click", function () {
-    document.getElementById('userImg').style.backgroundImage = 'url("/Images/Stone.png")';
+    document.getElementById('userImg').style.backgroundImage = 'url("Images/Stone.png")';
     playGame("Stone");
 });
 
 document.getElementById("paper").addEventListener("click", function () {
-    document.getElementById('userImg').style.backgroundImage = 'url("/Images/Paper.png")';
+    document.getElementById('userImg').style.backgroundImage = 'url("Images/Paper.png")';
     playGame("Paper");
 });
 
 document.getElementById("scissor").addEventListener("click", function () {
-    document.getElementById('userImg').style.backgroundImage = 'url("/Images/userScissor.png")';
+    document.getElementById('userImg').style.backgroundImage = 'url("Images/userScissor.png")';
     playGame("Scissors");
 });

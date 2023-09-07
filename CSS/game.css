@@ -36,7 +36,7 @@ nav {
 }
 
 .userImg {
-    background-image: url(/Images/PAPER.png);
+    background-image: url(Images/PAPER.png);
     height: 300px;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,7 +44,7 @@ nav {
 }
 
 .compImg {
-    background-image: url(/Images/PAPER.png);
+    background-image: url(Images/PAPER.png);
     height: 300px;
     background-position: center;
     background-repeat: no-repeat;
