@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #abdbe3;
+}
+
+nav {
+    background-color: #2b3739;
+}
+
+.logo {
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    pointer-events: none;
+    /* transition: all 0.5s ease-in; */
+}
+
+.hover:hover {
+    text-decoration: underline;
+}
+
+
+.nav-item {
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: antiquewhite;
+}
+
+.userImg {
+    background-image: url(/Images/PAPER.png);
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.compImg {
+    background-image: url(/Images/PAPER.png);
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.heading span {
+    font-size: 4rem;
+}
+
+#finalResult {
+    font-size: 4rem;
+}
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+}
+
+button {
+    background-color: #2b3739;
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1c3d42;
+    border: none;
+    outline: none;
+}
+
+.btn {
+    .title {
+        font-size: 2rem;
+        font-family: 'Inter', sans-serif;
+        pointer-events: none;
+        color: #abdbe3;
+    }
+
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.h7 {
+    font-size: 3rem;
+}
+
+table {
+    font-size: 1.5rem;
+}
+
+.table {
+    --bs-table-bg: #abdbe3;
+}
+
+.column {
+    flex-direction: column;
+}
+
+@media (max-width:1000px) {
+    button ion-icon {
+        font-size: 20px;
+    }
+
+    .column {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
