@@ -22,7 +22,7 @@ body {
 }
 
 .brand {
-    background-image: url(/Images/Brand-logo.png);
+    background-image: url(Images/Brand-logo.png);
     height: 100px;
     width: 250px;
     background-position: center;
@@ -39,7 +39,7 @@ body {
     gap: 1vw;
 }
 
-.menu-item a{
+.menu-item a {
     text-decoration: none;
 }
 
@@ -142,7 +142,7 @@ body {
 
         .btn:hover {
             background-color: #fff;
-            color:#2b3739;
+            color: #2b3739;
 
             .change {
                 color: #2b3739;
@@ -152,7 +152,7 @@ body {
 
     .png {
         width: 50%;
-        background-image: url(/Images/Stone_paper_scissor-removebg-preview.png);
+        background-image: url(Images/Stone_paper_scissor-removebg-preview.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -219,7 +219,7 @@ footer {
 }
 
 .logo {
-    background-image: url(/Images/Brand-logo.png);
+    background-image: url(Images/Brand-logo.png);
     height: 10vh;
     width: 20vw;
     margin-bottom: .8rem;
